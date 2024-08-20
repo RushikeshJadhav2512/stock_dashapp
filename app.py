@@ -69,5 +69,13 @@ def update_output(n_clicks, stock_code, start_date, end_date):
     else:
         return '', '', '', {}
 
+import os
+from dash import Dash
+
+app = Dash(__name__)
+
+# Your app layout and callbacks here
+
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    port = int(os.environ.get("PORT", 8050))  # Render provides PORT environment variable
+    app.run_server(host='0.0.0.0', port=port)
