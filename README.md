@@ -37,3 +37,6 @@ Troubleshooting
 
 	•	No Data Displayed: Ensure that the stock ticker symbol is correct and that you have selected a valid date range.
 	•	Errors in Prediction: Verify that the date format is correct and that the stock ticker symbol is valid.
+
+ <img width="1440" alt="Screenshot 2024-08-20 at 8 23 29 PM" src="https://github.com/user-attachments/assets/23fa646c-50d3-4a9c-8354-8507e6180aeb">
+
